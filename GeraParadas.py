@@ -6,7 +6,7 @@ LINHA = "913"
 STOP_TIMES = "dados brutos/GTFS/stop_times.txt"
 STOPS      = "dados brutos/GTFS/stops.txt"
 TRIPS      = "dados brutos/GTFS/trips.txt"
-OUTPUT     = f"dados brutos/paradas_{LINHA}.csv"
+OUTPUT     = f"dados brutos/paradas_{LINHA}_final.csv"
 
 # Carrega
 stop_times = pd.read_csv(
